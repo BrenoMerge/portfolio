@@ -1,19 +1,10 @@
 {
-  "name": "sistema-estoque",
-  "version": "1.0.0",
-  "description": "Sistema de estoque local simples",
-  "main": "server.js",
-  "scripts": {
-    "dev": "nodemon server.js"
-  },
-  "keywords": [],
-  "author": "Breno",
-  "license": "ISC",
   "dependencies": {
     "express": "^5.1.0",
-    "sqlite3": "^5.1.7"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
+    "moment-timezone": "^0.5.45",
+    "puppeteer": "^24.8.2",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.8.1",
+    "whatsapp-web.js": "^1.27.0"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "name": "sistema-estoque",
+  "version": "1.0.0",
+  "description": "Sistema de estoque local simples",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Breno",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
